@@ -4,6 +4,7 @@ import './dummy_catagories.dart';
 import './category_item.dart';
 
 class CategoryScreen extends StatelessWidget {
+  static const routeName = 'category_screen';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
